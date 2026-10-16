@@ -65,3 +65,10 @@ button:hover {
     flex-wrap: wrap;
     gap: 12px;
 }
+
+.clues {
+    margin-top: 16px;
+    padding: 18px; 
+    border: 1px solid #46627d;
+    border-radius: 12px; 
+}

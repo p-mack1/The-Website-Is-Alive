@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #0a1020;
+    color: #e9f5ff;
+    font-family: system-ui, sans-serif;
+}
+
+.game {
+    width: min(900px, 94%); margin: 28px auto;
+}
+
+h1 {
+    font-size: clamp(1.8rem, 5vw, 3rem);
+}
+
+#message { background: #16263d; border: 2px solid #46627d;
+  border-radius: 12px; padding: 20px; min-height: 72px; }
+
+  button { 
+    padding: 12px 18px; 
+    border: 0; 
+    border-radius: 9px;
+    background: #a2e8ff;
+    color: #091321;
+    font-weight: 800; 
+    cursor: pointer;
+    transition: transform .2s; 
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+
+.status {
+    margin-top: 16px;
+    background: #16263d; 
+    padding: 16px; border-radius: 12px;
+}
+
+.meter {
+    margin-top: 10px;
+    height: 16px;
+    background: #081320;
+    border-radius: 99px; 
+    overflow: hidden;
+}
+
+#angerFill {
+    width: 0%;
+    height: 100%;
+    background: #66d9ac;
+    transition: width .3s;
+}
+
+#pokeBtn {
+    background: #ffbf95;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}

@@ -72,3 +72,52 @@ button:hover {
     border: 1px solid #46627d;
     border-radius: 12px; 
 }
+
+#apologyBtn {
+    background: #b5f2c3;
+}
+
+.dodging {
+    transform: translateX(16px) rotate(3deg);
+    #mysteryBtn {
+        background: #d8c3ff;
+    }
+}
+
+.shutdown {
+    margin-top: 16px;
+    padding: 18px;
+    background: #16263d;
+    border-radius: 12px;
+}
+
+input {
+    padding: 12px;
+    max-width: 100%;
+    margin: 8px;
+}
+
+.victory {
+    outline: 4px solid #66d9ac;
+}
+
+#resetBtn {
+    margin-top: 12px;
+    background: #efe8ee;
+}
+
+@media (max-width: 520px) {
+    .game{
+        margin: 12px auto;
+    }
+    .controls {
+        flex-direction: column;
+    }
+    .controls button {
+        width: 100%;
+    }
+    .shutdown input {
+        width: 100%;
+        margin: 8px 0;
+    }
+}

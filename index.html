@@ -13,8 +13,22 @@
         <button id="wakeBtn">Wake Website</button>
         <section class = "status">
             <span>Anger: <strong id="angerLevel">0 / 100</strong></span>
+            <div class="meter"><div id="angerFill"></div></div>
+            <button id="pokeBtn">Poke Website</button>
         </section>
-        <section class="clues"><h2>Shutdown Clues</h2><p id="ClueOne">Clue 1: ???</p>
+        <section class="clues"><h2>Shutdown Clues</h2><p id="clueOne">Clue 1: ???</p>
+            <button id="apologyBtn">Apologize</button>
+            <p id="clueTwo">Clue 2: ???</p>
+            <button id="mysteryBtn">Mystery Button</button>
+            <p id="clueThree">Clue 3: ???</p>
+            <section class="shutdown">
+                <h2>Emergency Shutdown</h2>
+                <label for="codeInput">Three-digit code</label>
+                <input id="codeInput" type="text" inputmode="numeric" maxlength="3">
+                <button id="shutdownBtn">SHUT DOWN</button>
+                <p id="result" aria-live="polite">Waiting for clues...</p>
+                <button id="resetBtn">Restart Game</button>
+            </section>
         </section>
     </main>
     <script src="script.js"></script>

@@ -97,6 +97,11 @@ input {
     margin: 8px;
 }
 
+input.w3-input {
+    background: #0a1020;
+    color: #e9f5ff;
+}
+
 .victory {
     outline: 4px solid #66d9ac;
 }

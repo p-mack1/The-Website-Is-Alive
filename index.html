@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Website is Alive</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="game">
+    <main class="game w3-container">
         <h1>THE WEBSITE IS ALIVE!</h1>
         <p id="message" aria-live="polite">Everything is completely normal.</p>
         <button id="wakeBtn">Wake Website</button>
-        <section class = "status">
+        <section class="status w3-panel w3-card-4 w3-round-large">
             <span>Anger: <strong id="angerLevel">0 / 100</strong></span>
             <div class="meter"><div id="angerFill"></div></div>
             <button id="pokeBtn">Poke Website</button>
         </section>
-        <section class="clues"><h2>Shutdown Clues</h2><p id="clueOne">Clue 1: ???</p>
+        <section class="clues w3-panel w3-round-large"><h2>Shutdown Clues</h2><p id="clueOne">Clue 1: ???</p>
             <button id="apologyBtn">Apologize</button>
             <p id="clueTwo">Clue 2: ???</p>
             <button id="mysteryBtn">Mystery Button</button>
@@ -24,7 +25,7 @@
             <section class="shutdown">
                 <h2>Emergency Shutdown</h2>
                 <label for="codeInput">Three-digit code</label>
-                <input id="codeInput" type="text" inputmode="numeric" maxlength="3">
+                <input class="w3-input w3-border w3-round" id="codeInput" type="text" inputmode="numeric" maxlength="3">
                 <button id="shutdownBtn">SHUT DOWN</button>
                 <p id="result" aria-live="polite">Waiting for clues...</p>
                 <button id="resetBtn">Restart Game</button>
